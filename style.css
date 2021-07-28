@@ -1,5 +1,5 @@
 body {
-    background-color: #A07178;
+    background-color: #3A7D44;
 }
 
 .head {
@@ -16,7 +16,7 @@ body {
 .city {
     text-align: center;
     background-color:bisque;
-    border: 2px solid #5A5353;
+    border: 2px solid #D0DB97;
     border-radius: 2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0.5em;
@@ -26,7 +26,7 @@ body {
 .language {
     text-align: center;
     background-color:bisque;
-   border: 2px solid #5A5353;
+   border: 2px solid #D0DB97;
     border-radius: 2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0.5em;
@@ -46,7 +46,7 @@ body {
 .history {
     text-align: center;
     background-color: bisque;
-    border: 2px solid #5A5353;
+    border: 2px solid #D0DB97;
     border-radius: 2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0.5em;
@@ -66,4 +66,11 @@ body {
     padding: 1em;
     margin: 1em;
    
+}
+
+@media only screen and (max-width: 620px) {
+    body {
+        font-size: 12px;
+        background-color: #FF8552;
+    }
 }
